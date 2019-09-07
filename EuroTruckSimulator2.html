@@ -1,0 +1,15 @@
+EuroTruckSimulator2のこと
+
+起動オプション
+-rdevice dx11 -refresh 30 -USEALLAVAILABLECORES -nointro -malloc=system
+
+解説
+-rdevice dx11 ： DirectX11で起動するよ(デフォではDirectx9、シングルコア→マルチコア)
+-refresh 30 ： ※現状意味無し リフレッシュレートを指定するよ
+-USEALLAVAILABLECORES ： CPUのコアを全部使うよ
+-nointro ： ※現状意味無し 起動時イントロなしだよ
+-malloc=system ： メモリ管理はOSに任せるよ
+
+プチフリ対策
+config.cfg
+  uset g_save_indicator "0" #走行中のオートセーブをやめるよ→要確認
