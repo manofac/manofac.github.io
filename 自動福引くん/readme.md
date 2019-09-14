@@ -14,8 +14,8 @@
 * PC版google chromeを用意する
 * Tampermonkeyプラグインを入れる
 * Tampermonkeyのダッシュボード→ユーティリティのURL→インポート、URLは以下２点
-** https://raw.githubusercontent.com/manofac/manofac.github.io/nikonama/%E8%87%AA%E5%8B%95%E7%A6%8F%E5%BC%95%E3%81%8F%E3%82%93/nico2-auto-fukubikiPage-opener.js
-** https://raw.githubusercontent.com/manofac/manofac.github.io/nikonama/%E8%87%AA%E5%8B%95%E7%A6%8F%E5%BC%95%E3%81%8F%E3%82%93/nico2-auto-fukubiki-clicker.js
+  * https://raw.githubusercontent.com/manofac/manofac.github.io/nikonama/%E8%87%AA%E5%8B%95%E7%A6%8F%E5%BC%95%E3%81%8F%E3%82%93/nico2-auto-fukubikiPage-opener.js
+  * https://raw.githubusercontent.com/manofac/manofac.github.io/nikonama/%E8%87%AA%E5%8B%95%E7%A6%8F%E5%BC%95%E3%81%8F%E3%82%93/nico2-auto-fukubiki-clicker.js
 * ※一応スクリプトの自動更新はされる、かも
 * ニコニコ動画 or ニコ生のページを表示すると勝手に福引してくれるかも
 
