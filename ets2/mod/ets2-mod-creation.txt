@@ -1,0 +1,36 @@
+ets2 mod作成手順(client ver1.35 2019/09/16)
+
+抽出ツール
+サイト https://eurotrucksimulator2.com/mod_tools.php
+直リン https://modding.scssoft.com/download/scs_extractor.zip
+
+*geme_dir*/base.scs を抽出ツール(scs_extractor.ext)にD&Dすると素材がその場に展開される
+*geme_dir*/def.scs はdef,customと複数のフォルダが内包されている
+
+手順.1 変えたいfileを複製して、適当にfolder構成を維持しておく 例)def/game_data.sii
+手順.2 対象のfileを編集する(数値を変えるなど)
+手順.3 対象を含むfolderをzip,任意の名称.scsにrename 例)def/game_data.sii → mymod.scs
+手順.4 modとして適用させる(Users/user/Documents/Euro Truck Simulator 2/modに配置)
+
+※[要確認]圧縮するfolderが合っているか？(アイコン作成のときちょっと違った。defは違う扱いか？)
+
+参考：
+
+modの基本について
+http://nanka.hatenablog.com/entry/2016/08/26/005410
+
+ドライバーアイコン・会社ロゴ作成方法
+https://www.youtube.com/watch?v=O5Pe5Diqfyk
+
+・ドライバー base\material\ui\driver
+・会社 base\material\ui\player_logo
+・"material" folderをscsにする
+
+素材のDDSファイルは⇔pngで編集(https://www.aconvert.com/jp/image/dds-to-png/#)
+
+mod-name: manofac-DriverAndLogo-replace.scs
+
+自作スキン
+https://hb-plaza.reloaded.jp/makingskin/
+
+※作業メモdirectX SDKがらみでvc++2010の再配布なんちゃらパッケージ捨てた
